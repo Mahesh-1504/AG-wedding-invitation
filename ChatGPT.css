@@ -1,0 +1,90 @@
+/* Reset default styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Helps with better sizing of elements */
+  }
+  
+  /* Styling for the main container */
+  .main {
+    max-width: 485px; /* Set a maximum width for the main container */
+    margin: 0 auto; /* Center the container horizontally */
+    font-size: 1.2em;
+  }
+  
+  /* Style the image in the first_slide */
+  .main .first_slide img {
+    width: 100%; /* Adjust the image width to fill its container */
+    border: 2px solid white;
+  }
+  
+  /* Styling for the Name section */
+  .main .Name {
+    font-size: 30px;
+    text-align: center; /* Center-align the content */
+    margin-top: -180px; /* Adjust margin using pixels for better control */
+    background-color: transparent; /* This might be default, but included for clarity */
+  }
+  
+  /* Style the various spans within the Name section */
+  .main .Name span {
+    font-weight: bold; /* Use 'bold' instead of 'bolder' */
+    color: rgb(223, 100, 0);
+    text-shadow: 1px 1px 0 rgb(255, 255, 255); /* Adjust text shadow for readability */
+  }
+  
+  .main .Name .da {
+    color: white;
+    font-size: 18px;
+    
+    text-shadow: 2px 2px 0 black; /* Adjust text shadow for readability */
+  }
+  
+  .main .Name .date {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-shadow: 2px 2px 0 rgb(0, 0, 0); /* Adjust text shadow for readability */
+  }
+  
+  /* Styling for the heading in the second slide */
+  .secondSlide .heading {
+    padding-left: 33%; /* Adjust padding using pixels for better control */
+    text-align: center; /* Center-align the heading */
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+    transition: color 0.3s ease-in-out; /* Transition the color property over 0.3 seconds */
+}
+.secondSlide text{
+    padding-left: 40%; /* Adjust padding using pixels for better control */
+    text-align: center; /* Center-align the heading */
+    color: rgb(82, 82, 82);
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+    transition: color 0.3s ease-in-out; /* Transition the color property over 0.3 seconds */
+}
+.secondSlide .var img {
+    max-width: 485px;
+    height: 300px;
+    margin-left: 23%;
+    border-radius: 50%; /* Creates a circular shape by setting border-radius to 50% */
+  }
+  
+  .secondSlide .vadhu img {
+    max-width: 500px;
+    height: 300px;
+    margin-left: 23%;
+    border-radius: 50%; /* Creates a circular shape by setting border-radius to 50% */
+  }
+  .family .family1 .father img{
+    max-width: 500px;
+  }
+  .family .family1 .mother img{
+    max-width: 500px;
+  }
+  .family .family1 .nani img{
+    max-width: 500px;
+  }
